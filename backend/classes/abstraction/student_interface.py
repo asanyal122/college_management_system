@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from unicodedata import name
 class StudentInterface(ABC):
     
     @abstractmethod
@@ -6,15 +7,16 @@ class StudentInterface(ABC):
         pass
 
     @abstractmethod
-    def set_roll(self):
+    def set_roll(self,roll):
         pass
 
     @abstractmethod
-    def get_name(self):
+    def get_name(self,name):
         pass
 
     @abstractmethod
     def set_name(self):
         pass
+
 
 

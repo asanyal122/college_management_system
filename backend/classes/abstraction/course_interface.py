@@ -6,7 +6,7 @@ class CourseInterface(ABC):
         pass
 
     @abstractmethod
-    def set_cid(self):
+    def set_cid(self,cid):
         pass
 
     @abstractmethod
@@ -14,7 +14,7 @@ class CourseInterface(ABC):
         pass
 
     @abstractmethod
-    def set_cname(self):
+    def set_cname(self,cname):
         pass
 
 
